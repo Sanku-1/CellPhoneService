@@ -68,7 +68,7 @@ public class CellPhone {
     }
 
     public String dial(CellPhone cellPhone) {
-        return this.owner + " is calling " + cellPhone.phoneNumber;
+        return this.owner + " is calling " + cellPhone.getPhoneNumber();
     }
 
 }
