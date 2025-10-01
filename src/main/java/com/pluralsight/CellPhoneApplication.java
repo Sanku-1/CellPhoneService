@@ -57,6 +57,8 @@ public class CellPhoneApplication {
 
         display(cellPhone3);
 
+        System.out.println(cellPhone3.dial(cellPhone1));
+
 
     }
 
