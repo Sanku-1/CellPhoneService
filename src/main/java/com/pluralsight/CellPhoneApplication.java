@@ -53,6 +53,10 @@ public class CellPhoneApplication {
         System.out.println(cellPhone1.dial(cellPhone2.getPhoneNumber()));
         System.out.println(cellPhone2.dial(cellPhone1.getPhoneNumber()));
 
+        CellPhone cellPhone3 = new CellPhone(123456, "OnePlus 13", "Telus", "646-123-4566", "Edy");
+
+        display(cellPhone3);
+
 
     }
 
