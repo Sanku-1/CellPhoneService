@@ -15,7 +15,7 @@ public class CellPhone {
 //        this.owner = owner;
 //    }
 
-    public CellPhone (){
+    public CellPhone() {
         this.serialNumber = 0;
         this.model = "";
         this.carrier = "";
@@ -26,32 +26,47 @@ public class CellPhone {
     public int getSerialNumber() {
         return this.serialNumber;
     }
+
     public void setSerialNumber(int serialNumber) {
         this.serialNumber = serialNumber;
     }
+
     public String getModel() {
         return this.model;
     }
+
     public void setModel(String model) {
         this.model = model;
     }
+
     public String getCarrier() {
         return this.carrier;
     }
+
     public void setCarrier(String carrier) {
         this.carrier = carrier;
     }
+
     public String getPhoneNumber() {
         return this.phoneNumber;
     }
+
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
     public String getOwner() {
         return this.owner;
     }
+
     public void setOwner(String owner) {
         this.owner = owner;
     }
+
+    public String dial(String phoneNumber) {
+        return this.owner + " is calling " + phoneNumber;
+    }
+
 }
+
 
